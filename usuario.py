@@ -1,5 +1,12 @@
 import random
 import time
+from validar import *
+from defs import *
+import datetime
+import os
+logins = open('logins.txt', 'r')
+contatos = {}
+inlog = False
 
 class Usuario:
   def __init__(self):
