@@ -14,6 +14,3 @@ class agendamento:
       self.momento = datetime.datetime.now()
       print('Momento do agendamento:', self.momento)
 
-    
-    
-    
